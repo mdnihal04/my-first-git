@@ -1,13 +1,17 @@
-
-
 #1 => one time for each project before start git
 git init
 
 #2 => Every time to add something
 git add .
 
-
+#3 => For a message of what you changed/did (Will show in the githubcommit list)
 git commit -m "first commit"
+
+#4 => Switching to a branch
 git branch -M main
+
+#5 => One time for every repository
 git remote add origin https://github.com/mdnihal04/my-first-git.git
-git push -u origin main
+
+#6 => Final step to push in the desired destination
+git push -u origin 
