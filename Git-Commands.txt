@@ -14,4 +14,22 @@ git branch -M main
 git remote add origin https://github.com/mdnihal04/my-first-git.git
 
 #6 => Final step to push in the desired destination
-git push -u origin 
+git push -u origin
+
+
+Special notes that will help team or company projects-------
+
+For a private repository i can collaborate and clone that repository in my vs code..
+
+git clone (repository->code->https->copy)
+
+or can fork that (if public) and clone it...
+
+then can change branch...default branch is "main"
+
+git branch (to check available branch)
+
+git checkout "branch-name" ( to check if i am on that branch or not)
+
+
+git checkout -b "new-branch" ( to create new and switch to that branch)
